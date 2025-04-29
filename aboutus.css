@@ -1,0 +1,229 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  body {
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #fff;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ff0073;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 300;
+    transition: color 0.3s;
+    /* font-size:; */
+  }
+  
+  .nav-links li a:hover {
+    color: #ff0073;
+  }
+  .contact-hero {
+    background-color: #f4f4f4;
+    padding: 60px 10px;
+    text-align: center;
+    color: #333;
+}
+
+.contact-hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ff0073;
+}
+/* Contact Form Section */
+#contact-form {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff0073;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.form-group textarea {
+    height: 150px;
+}
+
+button.cta {
+    background-color: #ff0073;
+    color: #fff;
+    padding: 14px 28px;
+    font-size: 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s, transform 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button.cta:hover {
+    background-color: #e60066;
+    transform: translateY(-2px);
+}
+
+  
+  /* Hero Section */
+  .hero-section {
+    background: url('./images/bk.png') no-repeat center center/cover;
+    padding: 120px 60px 80px;
+    text-align: center;
+    color: black;
+  }
+  
+  .hero-section h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Mission Section */
+  .mission-section {
+    padding: 20px 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .mission-section h2 {
+    font-size: 2.5rem;
+    color: #ff0073;
+    margin-bottom: 20px;
+  }
+  
+  .mission-section p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+  
+  .mission-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Team Section */
+  .team-section {
+    background-color: #f9f9f9;
+    padding: 20px 20px;
+    text-align: center;
+  }
+  
+  .team-section h2 {
+    font-size: 2.5rem;
+    color: #ff0073;
+    margin-bottom: 40px;
+  }
+  
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .team-member {
+    background: #fff;
+    padding: 24px;
+    border-radius: 12px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .team-member h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 6px;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .footer a {
+    color: #ff0073;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
